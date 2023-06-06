@@ -143,7 +143,6 @@ class _Builder extends Builder {
             '$part must be included as a part directive in '
             'the input library with:\n    part \'$part\';',
           );
-          return;
         }
       } else {
         assert(this is SharedPartBuilder);
